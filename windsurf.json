@@ -1,0 +1,19 @@
+{
+  "name": "tiger-app",
+  "framework": "laravel",
+  "build": {
+    "command": "npm run build",
+    "directory": "public"
+  },
+  "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": "false"
+  },
+  "mcp": {
+    "tiger":
+    {"command":
+      "/usr/bin/tiger",
+      "args": ["mcp", "start"]
+      }
+    }
+}
